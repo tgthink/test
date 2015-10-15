@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<script>
+		var fengeLine = "==========================================================<br />";
+		var newLine = "<br />";
+		// Create a user-defined object.
+		var obj = {};
+
+		// Add a data property to the object.
+		Object.defineProperty(obj, "newDataProperty", {
+		    value: 101,
+		    writable: true,
+		    enumerable: true,
+		    configurable: true
+		});
+
+		// Set the property value.
+		obj.newDataProperty = 102;
+		document.write(fengeLine);
+		document.write("Property value: " + obj.newDataProperty + newLine);
+
+		// Output:
+		// Property value: 102
+		var names = Object.getOwnPropertyNames(obj);
+		console.log(names);
+		for (var i = 0, namesLength = names.length; i < namesLength; i++) {
+		    var prop = names[i];
+
+			document.write(fengeLine);
+		    document.write(prop + ': ' + obj[prop]);
+		    document.write(newLine);
+		}
+
+		// Modify the writable attribute of the property.
+		Object.defineProperty(obj, "newDataProperty", { writable: false });
+
+		// List the property attributes by using a descriptor.
+		// Get the descriptor with Object.getOwnPropertyDescriptor.
+		var descriptor = Object.getOwnPropertyDescriptor(obj, "newDataProperty");
+		for (var prop in descriptor) {
+
+			document.write(fengeLine);
+		    document.write(prop + ': ' + descriptor[prop]);
+		    document.write(newLine);
+		}
+
+		document.write(fengeLine);
+
+		// Output
+		// writable: false
+		// value: 102
+		// configurable: true
+		// enumerable: true
+
+		var newLine = "<br />";
+
+		// Create a user-defined object.
+		var obj = {};
+
+		// Add an accessor property to the object.
+		Object.defineProperty(obj, "newAccessorProperty", {
+		    set: function (x) {
+		        document.write("in property set accessor" + newLine);
+		        this.newaccpropvalue = x;
+		    },
+		    get: function () {
+		        document.write("in property get accessor" + newLine);
+		        return this.newaccpropvalue;
+		    },
+		    enumerable: true,
+		    configurable: true
+		});
+
+		// Set the property value.
+		obj.newAccessorProperty = 30;
+		document.write("Property value: " + obj.newAccessorProperty + newLine);
+
+		// Output:
+		// in property set accessor
+		// in property get accessor
+		// Property value: 30
+
+		document.write(fengeLine);
+		// Modify the get accessor.
+		Object.defineProperty(obj, "newAccessorProperty", {
+		    get: function () { return this.newaccpropvalue; }
+		});
+
+		// List the property attributes by using a descriptor.
+		// Get the descriptor with Object.getOwnPropertyDescriptor.
+		var descriptor = Object.getOwnPropertyDescriptor(obj, "newAccessorProperty");
+		for (var prop in descriptor) {
+		    document.write(prop + ': ' + descriptor[prop]);
+		    document.write(newLine);
+		}
+
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
