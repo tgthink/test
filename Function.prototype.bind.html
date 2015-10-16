@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bind</title>
+</head>
+<body>
+	<div id="scroll">
+		aaaaaaaaaaaaaaaaa
+		bbbbbbbbbbbbbbbb
+	</div>
+	<script>
+		function T(c) {
+		    this.id = "Object";
+		    this.dom = document.getElementById("scroll");
+		}
+		T.prototype = {
+		    init: function() {
+		        this.dom.onmouseover = function() {
+		            console.log("Over-->"+this.id);
+		        }
+		        this.dom.onmouseout = function() {
+		            console.log("Out -->"+this.id);
+		        }.bind(this)
+		    }
+		};
+		(new T()).init();
+
+		//都是将obj作为上下文的this
+		function func(name,id) {
+		    console.log(name,id,this);
+		}
+		var obj = "Look here";
+		//什么也不加
+		func("    ","-->");
+		//使用bind是 返回改变上下文this后的函数
+		var a = func.bind(obj, "bind", "-->");
+		a();
+		//使用call是 改变上下文this并执行函数
+		var b = func.call(obj, "call", "-->");
+
+
+
+
+
+
+		function f(a, b, c){
+		    console.log(a,b,c);
+		}
+		var f_Extend = f.bind(null, "extend_A");
+
+		f("A","B","C");  //这里会输出--> A B C
+
+		f_Extend("A","B","C");  //这里会输出--> extend_A A B
+
+		f_Extend("B","C");  //这里会输出--> extend_A B C
+
+		f.call(null,"extend_A"); //这里会输出--> extend_A undefined undefined
+	</script>
+</body>
+</html>
