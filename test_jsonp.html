@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+  <title>jsonp_test</title>
+
+  <script>
+    var f = function(data){
+      console.log(data);
+      //alert(data.name);
+    }
+    /*var xhr = new XMLHttpRequest();
+    xhr.onload = function(){
+      alert(xhr.responseText);
+    };
+    xhr.open('POST', 'http://localhost:8888/cors', true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.send("f=json");*/
+  </script>
+  
+  <script>
+    var _script = document.createElement('script');
+    _script.type = "text/javascript";
+    _script.src = "http://120.25.153.179/process_jsonp.php?callback=f";
+    document.head.appendChild(_script);
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
