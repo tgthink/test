@@ -1,5 +1,5 @@
 <?php
-	header("Access-Control-Allow-Origin:*");
+	header("Access-Control-Allow-Origin:http://121.41.120.202:8080");
 	// header('Access-Control-Allow-Headers: X-Requested-With');
 	// $aReturn = Array();
 	// $aReturn["state"] = "ok";
