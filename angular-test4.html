@@ -1,0 +1,81 @@
+<!doctype html>
+<html ng-app='expanderModule'>
+    <head>
+        <meta charset="utf-8" />
+        <title>My AngularJS App</title>
+        <style type="text/css">
+        .expander {
+            border: 1px solid black;
+            width: 250px;
+        }
+
+        .expander>.title {
+            background-color: black;
+            color: white;
+            padding: .1em .3em;
+            cursor: pointer;
+        }
+
+        .expander>.body {
+            padding: .1em .3em;
+        }
+        </style>
+        <script type="text/javascript" src="js/angular1.4.5.min.js"></script>
+        <script type="text/javascript">
+        var expanderModule = angular.module('expanderModule', [])
+        expanderModule.directive('expander', function() {
+            return {
+                restrict : 'EA',
+                replace : true,
+                transclude : true,
+                scope : {
+                    title : '=expanderTitle'
+                },
+                template : '<div>'
+                         + '<div class="title" ng-click="toggle()">{{title}}</div>'
+                         + '<div class="body" ng-show="showMe" ng-transclude></div>'
+                         + '</div>',
+                link : function(scope, element, attrs, ctrl) {
+                    scope.showMe = false;
+                    scope.toggle = function toggle() {
+                        scope.showMe = !scope.showMe;
+                    }
+                    console.log(attrs);
+                    var firstPassword = '#' + attrs.pwCheck;
+                    element.add(firstPassword).on('keyup', function () {
+                        scope.$apply(function () {
+                            // console.info(elem.val() === $(firstPassword).val());
+                            ctrl.$setValidity('pwmatch', element.val() === $(firstPassword).val());
+                        });
+                    });
+                }
+                /*
+                    link: function (scope, elem, attrs, ctrl) {
+                        var firstPassword = '#' + attrs.pwCheck;
+                        elem.add(firstPassword).on('keyup', function () {
+                            scope.$apply(function () {
+                                // console.info(elem.val() === $(firstPassword).val());
+                                ctrl.$setValidity('pwmatch', elem.val() === $(firstPassword).val());
+                            });
+                        });
+                    }
+                */
+            }
+        });
+        expanderModule.controller('SomeController',function($scope) {
+            $scope.title = '点击展开';
+            $scope.text = '<a>这里是内部的内容。</a>';
+        });
+        </script>
+    </head>
+    
+    <body>
+        <div ng-controller='SomeController'>
+            <expander class='expander' expander-title='title'>
+                {{text}}
+            </expander>
+        </div>
+    </body>
+
+</html>
+

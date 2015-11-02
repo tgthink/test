@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+    <head>
+        <meta charset="utf-8" />
+        <title>My AngularJS App</title>
+        <style type="text/css">
+        </style>
+        <script type="text/javascript" src="js/angular1.4.5.min.js"></script>
+        <script type="text/javascript">
+        var appModule = angular.module('myApp', []);
+        appModule.directive('hello', function() {
+            return {
+                restrict: 'E',
+                template: '<span>Hi there</span>',
+                replace: true
+            };
+        });
+        appModule.controller('MyController',function($scope) {
+            $scope.things = [1,2,3,4,5,6];
+        });
+        </script>
+    </head>
+    
+    <body ng-controller='MyController'>
+        <div ng-repeat='thing in things'>
+            {{thing}}.<hello></hello>
+        </div>
+    </body>
+
+</html>
+
