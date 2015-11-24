@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.magazine
+	{
+		-moz-column-count:3; /* Firefox */
+		-webkit-column-count:3; /* Safari and Chrome */
+		column-count:3;
+		 
+		-moz-column-gap:40px; /* Firefox */
+		-webkit-column-gap:40px; /* Safari and Chrome */
+		column-gap:20px;
+		 
+		-moz-column-rule:4px outset #ff00ff; /* Firefox */
+		-webkit-column-rule:4px outset #ff00ff; /* Safari and Chrome */
+		column-rule:6px outset #ff00ff;
+	}
+	#redP p {
+         /* 权值 = 100+1=101 */
+         color:#F00;  /* 红色 */
+    }
+    #redP .red em {
+         /* 权值 = 100+10+1=111 */
+         color:#00F; /* 蓝色 */
+    }
+    #redP p span em {
+         /* 权值 = 100+1+1+1=103 */
+         color:#FF0;/*黄色*/
+    }
+	</style>
+</head>
+<body>
+	<form>
+		<div>
+			<input type="color" name="favcolor">
+		</div>
+		<div>
+			<input type="date" name="bday">
+		</div>
+		<div>
+			<input type="datetime-local" name="bdaytime">
+		</div>
+		<div>
+			<input type="email" name="email">
+		</div>
+		<div>
+			<input type="url" name="sitename">
+		</div>
+		<div>
+			<input type="number" name="quantity" min="1" max="5">
+		</div>
+		<div>
+			<input type="range" min="0" max="10" step="2" value="6">
+		</div>
+
+		<div>
+			<input type="search" name="googleengine">
+		</div>
+		<div>
+			<input type="time" name="usr_time">
+		</div>
+		<div>
+			<input type="tel" name="mytel">
+		</div>
+		<div>
+			<input type="range" min="0" max="10" step="2" value="6">
+		</div>
+	</form>
+	<form onsubmit="return false"  oninput="o.value = parseInt(a.value) + parseInt(b.value)">
+	  <input name="a" type="number"> +
+	  <input name="b" type="number"> =
+	  <output name="o" />
+	</form>
+	<div class="magazine">
+		Your text goes here which you want to divide in to 3 columns.
+	</div>
+    <div id="redP">
+        <p class="red">red
+           <span><em>em red</em></span>
+        </p>
+        <p>red</p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
