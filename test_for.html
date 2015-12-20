@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>for</title>
+	<script type="text/javascript">
+	var num = 0;
+	outermost:
+	for (var i = 0; i < 10; i++) {
+		for (var j = 0; j < 10; j++) {
+			console.log(i == 5 && j == 5);
+			if (i == 5 && j == 5) {
+				break outermost;
+			}
+			num++;
+		}
+	}
+	console.log(num);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
