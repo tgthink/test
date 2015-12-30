@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button id="button1">aaaaa</button>
+	<div id="bbbb">
+		<ul id="liList">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+		</ul>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+		var count = 4;
+		$("#button1").on("click", function() {
+			$("#liList").append("<li>" + count + "</li>")
+			count++;
+		});
+		$("#bbbb").on("click","#liList li",function(){
+			console.log(this);
+		});
+	</script>
+</body>
+</html>

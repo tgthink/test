@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+自动弹出对话框：
+<iframe style="display:none;" src="tencent://message/?uin=952458077&Site=&menu=yes"></iframe>
+
+随机弹出多个企鹅号之一
+<iframe style="display:none;" class="qq_iframe" src=""></iframe>
+<script>
+$(function(){
+    qq_list = new Array('952458077', '企鹅号2','企鹅号23333');
+    //随机
+    qq_i = Math.floor(Math.random()*qq_list.length);
+    src = "tencent://message/?uin="+qq_list[qq_i]+"&Site=&menu=yes";
+    $('.qq_iframe').attr('src',src);
+})
+</script>
+
+
+<iframe style="display:none;" class="qq_iframe" src=""></iframe>
+<script>
+$(function(){
+    setTimeout(function(){
+        qq_list = new Array('企鹅号1', '企鹅号2');
+        //随机
+        qq_i = Math.floor(Math.random()*qq_list.length);
+        src = "tencent://message/?uin="+qq_list[qq_i]+"&Site=&menu=yes";
+        $('.qq_iframe').attr('src', src);
+    }, 10000)//这里的单位是毫秒，10000就是10秒弹
+})
+
+</script>
+<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=952458077&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:952458077:53" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+</body>
+</html>

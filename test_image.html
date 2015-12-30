@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+		var img = new Image();
+		img.src = "images/gray.jpg";
+		img.onerror = function() {
+			console.log("error");
+		}
+		img.onload = function() {
+			console.log("load");
+		}
+
+		for(var i=0;i<5;i++){
+			console.log(i);
+			setTimeout(function(){
+				console.log(i);
+			},i*1000);
+		}
+		console.log("==============");
+		console.log(i);
+		function dianMy() {
+			console.log(++i);
+		}
+	</script>
+</head>
+<body>
+	<a onclick="dianMy()" href="#">a</a>
+</body>
+</html>
