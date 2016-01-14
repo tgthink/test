@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>click</title>
+	<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<div class="divInner">aaaaaaaaaaaaa</div>
+	<div id="bbbbbbbbbbb">bbbbbbbbbbbbbb</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			function clearMenus1(e) {
+				console.log("!!!!!!!!!!!!!!!!!");
+				e.stopPropagation();
+			}
+			function clearMenus(e) {
+				console.log("?????????????????");
+				e.stopPropagation();
+			}
+
+			$(document)
+		    .on('click.bs.dropdown.data-api', clearMenus1);
+		    
+		    $('.divInner')
+		    .on('click.bs.dropdown.data-api', clearMenus);
+
+		    $("#bbbbbbbbbbb").on("click", function() {
+		    	$(".divInner").off();
+		    });
+		});
+	</script>
+</body>
+</html>
