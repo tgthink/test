@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<!-- ********************************************* HelloWorld start ********************************************* -->
+	<h3>HelloWorld</h3>
+	<div id="app1">
+	  {{ message }}
+	</div>
+	<!-- ********************************************* 双向绑定 start ********************************************* -->
+	<h3>双向绑定</h3>
+	<div id="app2">
+		<p>{{ message }}</p>
+		<input v-model="message">
+	</div>
+	<!-- ********************************************* 渲染列表 start ********************************************* -->
+	<h3>渲染列表</h3>
+	<div id="app3">
+		<ul>
+			<li v-for="todo in todos">
+				{{ todo.text }}
+			</li>
+		</ul>
+	</div>
+	<!-- ********************************************* 处理用户数据 start ********************************************* -->
+	<h3>处理用户数据</h3>
+	<div id="app4">
+	  <p>{{ message }}</p>
+	  <button v-on:click="reverseMessage">Reverse Message</button>
+	</div>
+	<!-- ********************************************* 综合 start ********************************************* -->
+	<h3>综合</h3>
+	<div id="app5">
+	  <input v-model="newTodo" v-on:keyup.enter="addTodo">
+	  <ul>
+	  	<li v-if="!greeting" >
+	  		没有数据
+	  	</li>
+	    <li v-for="todo in todos" v-if="greeting">
+	      <span>{{ $index + ">" + todo.text }}</span>
+	      <button v-on:click="removeTodo($index)">X</button>
+	    </li>
+	  </ul>
+	</div>
+
+	<script type="text/javascript" src="vue.js"></script>
+	<script type="text/javascript">
+		new Vue({
+			el: '#app1',
+			data: {
+				message: 'Hello Vue.js!'
+			}
+		});
+		new Vue({
+			el: '#app2',
+			data: {
+				message: 'Hello Vue.js!'
+			}
+		});
+		new Vue({
+			el: '#app3',
+			data: {
+				todos: [
+					{ text: 'Learn JavaScript' },
+					{ text: 'Learn Vue.js' },
+					{ text: 'Build Something Awesome' }
+				]
+			}
+		});
+		new Vue({
+			el: '#app4',
+			data: {
+				message: 'Hello Vue.js!'
+			},
+			methods: {
+				reverseMessage: function () {
+				  this.message = this.message.split('').reverse().join('');
+				}
+			}
+		});
+		new Vue({
+		  el: '#app5',
+		  data: {
+		  	greeting: true,
+		    newTodo: '',
+		    todos: [
+		      { text: 'Add some todos1' },
+		      { text: 'Add some todos2' }
+		    ]
+		  },
+		  methods: {
+		    addTodo: function () {
+		      var text = this.newTodo.trim()
+		      if (text) {
+		        this.todos.push({ text: text })
+		        this.newTodo = ''
+				if ( this.todos.length > 0 ) {
+					this.greeting = true;
+				}
+		      }
+		    },
+		    removeTodo: function (index) {
+				this.todos.splice(index, 1);
+				console.log(this);
+				if ( this.todos.length <= 0 ) {
+					this.greeting = false;
+				}
+		    }
+		  }
+		});
+	</script>
+</body>
+</html>

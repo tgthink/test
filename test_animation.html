@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="./css/animate.css">
+	<style type="text/css">
+	#dowebok {
+	    animate-duration: 2s;    //动画持续时间
+	    animate-delay: 4s;    //动画延迟时间
+	    animate-iteration-count: 10;    //动画执行次数
+	}
+	</style>
+</head>
+<body>
+	<div class="" id="dowebok">a</div>
+	<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+	    $('#dowebok').addClass('animated bounce');
+	    setTimeout(function(){
+	        $('#dowebok').removeClass('bounce');
+	    }, 1000);
+	});
+	</script>
+</body>
+</html>

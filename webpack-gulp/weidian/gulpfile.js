@@ -6,6 +6,7 @@ var gulp = require('gulp');	//基础库
 var less = require('gulp-less');	//编译less
 var clean = require('gulp-clean');	//清空文件夹
 var autoprefixer = require('gulp-autoprefixer');	//自动处理浏览器前缀
+var notify = require('gulp-notify');	//
 
 var paths = {
 	src_html: 		"./src/**/*.html",
@@ -27,27 +28,28 @@ var paths = {
 	dist_html: 		"./dist/**/*.html",
 	dist_js: 		"./dist/js",
 	dist_css: 		"./dist/css",
-
+	dist_images: "dist/images",
+	dist_pic: 'dist/pic',
 	// main_js: "main.js",
-	// dist_images: "dist/images",
-	// dist_pic: 'dist/pic',
+	
+	
 	// rev_css: "dist/rev/css"
 };
 var handleHtmlAry = [paths.src_html, paths.src_json, paths.src_php, paths.src_txt];
 // HTML处理
 gulp.task('html', function() {
-    gulp.src(handleHtmlAry)
+    return gulp.src(handleHtmlAry)
     .pipe(gulp.dest(paths.dist_url));
 });
 // 处理样式
 gulp.task('styles', function() {
 	/*js内css start*/
-	gulp.src([paths.src_js_less])
-	.pipe(less())
-	.pipe(autoprefixer('> 1%', 'IE 7'))
-	.pipe(gulp.dest(paths.dist_js));
-	gulp.src(['src/js/**/*.css'])
-	.pipe(gulp.dest(paths.dist_js));
+	// gulp.src([paths.src_js_less])
+	// .pipe(less())
+	// .pipe(autoprefixer('> 1%', 'IE 7'))
+	// .pipe(gulp.dest(paths.dist_js));
+	// gulp.src([paths.src_js_css])
+	// .pipe(gulp.dest(paths.dist_js));
 	/*js内css end*/
 	//处理less
 	gulp.src([paths.src_less])
@@ -55,37 +57,32 @@ gulp.task('styles', function() {
 	.pipe(autoprefixer('> 1%', 'IE 7'))
 	.pipe(gulp.dest(paths.dist_css));
 	//处理普通css
-	gulp.src([paths.src_css])
+	return gulp.src([paths.src_css])
 	.pipe(gulp.dest(paths.dist_css));
 });
 // 图片
 gulp.task('images', function() {  
-  return gulp.src(paths.src_images)
-    /*.pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))*/
+	return gulp.src(paths.src_images)
     .pipe(gulp.dest(paths.dist_images));
-    //.pipe(notify({ message: 'Images task complete' }));
 });
 gulp.task('pic', function() {  
-  return gulp.src(paths.src_pic)
-    /*.pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))*/
+	return gulp.src(paths.src_pic)
     .pipe(gulp.dest(paths.dist_pic));
-    //.pipe(notify({ message: 'Images task complete' }));
 });
 // 脚本
 gulp.task('scripts', function() {
-	gulp.src([paths.src_js_total])
-    .pipe(gulp.dest(paths.dist_js));
+	return gulp.src([paths.src_js_total])
+	.pipe(gulp.dest(paths.dist_js))
+	.pipe(notify({ message: 'Scripts task complete' }));
 });
 // 清理
 gulp.task('clean', function() {
-  //, paths.dist_images, paths.dist_pic aths.dist_js
-	gulp.src([paths.dist_js, paths.dist_html, paths.dist_css], {read: false})
+	return gulp.src([paths.dist_js, paths.dist_html, paths.dist_css, paths.dist_images, paths.dist_pic], {read: false})
 	.pipe(clean());
 });
 // 定义默认任务
 gulp.task('default', ['clean'], function() {
-    gulp.start('styles', 'scripts', 'images', 'pic');
-    //gulp.start('styles', 'scripts', 'images', 'pic');
+    gulp.start('scripts', 'styles', 'images', 'pic');
     setTimeout(function(){
       gulp.start('html');
     }, 1000);

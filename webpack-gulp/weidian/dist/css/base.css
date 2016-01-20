@@ -1,0 +1,109 @@
+/*
+ * Last Updated: 2015-12-7
+ * Author: fire
+ * Formatting Model（布局方式、位置） > Box Model（尺寸） > Typographic（文本相关） > Visual（视觉效果） 的顺序书写
+ */
+/*html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}*/
+/** {
+	box-sizing: border-box;
+}*/
+body,
+ol,
+ul,
+li,
+input,
+button,
+p,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Microsoft YaHei", "Arial";
+  line-height: 1;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+b {
+  font-weight: normal;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+a:active {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+i {
+  font-style: normal;
+}
+button {
+  font-family: "Microsoft YaHei", "Arial";
+}
+span {
+  cursor: pointer;
+}
+.p-clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  *zoom: 1;
+  width: 100%;
+}
+.p-left {
+  float: left;
+}
+.p-right {
+  float: right;
+}

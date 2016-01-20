@@ -1,3 +1,4 @@
+//npm install css-loader style-loader
 module.exports = {
 	entry: "./entry.js",
 	output: {
