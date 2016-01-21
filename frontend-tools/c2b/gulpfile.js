@@ -44,12 +44,12 @@ gulp.task('html', function() {
 // 处理样式
 gulp.task('styles', function() {
 	/*js内css start*/
-	// gulp.src([paths.src_js_less])
-	// .pipe(less())
-	// .pipe(autoprefixer('> 1%', 'IE 7'))
-	// .pipe(gulp.dest(paths.dist_js));
-	// gulp.src([paths.src_js_css])
-	// .pipe(gulp.dest(paths.dist_js));
+	gulp.src([paths.src_js_less])
+	.pipe(less())
+	.pipe(autoprefixer('> 1%', 'IE 7'))
+	.pipe(gulp.dest(paths.dist_js));
+	gulp.src([paths.src_js_css])
+	.pipe(gulp.dest(paths.dist_js));
 	/*js内css end*/
 	//处理less
 	gulp.src([paths.src_less])
