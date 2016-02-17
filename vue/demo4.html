@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="example1">
+	  <my-component></my-component>
+	</div>
+	<div id="example2">
+		<child msg="hello!"></child>
+	</div>
+	<div id="example3">
+	  <my-component></my-component>
+	</div>
+	<script type="text/javascript" src="../js/vue.js"></script>
+	<script type="text/javascript">
+		// var MyComponent = Vue.extend({
+		// 	//选项
+		// 	template: '<div>AAAAAAAAAA custom component!</div>'
+		// });
+		// Vue.component('my-component', MyComponent);
+		// new Vue({
+		// 	el: '#example1'
+		// });
+
+		Vue.component('child', {
+		  // 声明 props
+		  props: ['msg'],
+		  // prop 可以用在模板内
+		  // 可以用 `this.msg` 设置
+		  template: '<span>{{ msg }}</span>'
+		});
+		new Vue({
+			el: '#example2'
+		});
+		// 在一个步骤中扩展与注册
+		Vue.component('my-component', {
+		  template: '<div>BBBBBBBBBBBBBBBBBB custom component!</div>'
+		})
+
+		// 局部注册也可以这么做
+		// var Parent = Vue.extend({
+		//   components: {
+		//     'my-component': {
+		//       template: '<div>BBBBBBBBBBBBBBBBBBBBBBBBBBB custom component!</div>'
+		//     }
+		//   }
+		// })
+
+		new Vue({
+			el: '#example3'
+		});
+	</script>
+</body>
+</html>
