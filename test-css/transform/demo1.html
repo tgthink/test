@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style type="text/css">
+		.transform {
+		    margin: 30px 0 80px 0;
+		    width: 200px;
+		    height: 50px;
+		    font-size: 18px;
+		    font-weight: bold;
+		    background: #DEE4EE;
+		    color: #305999;
+		    text-align: center;
+		    line-height: 50px;
+		}
+		.demo_transform1 {
+			-webkit-transform: rotate(10deg);
+			-moz-transform: rotate(10deg);
+		}
+
+		.aaaaa {
+		    width: 100px;
+		    height: 100px;
+		    background: red;
+		    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+		    transition: width 2s, height 2s, transform 2s;
+		}
+
+		.aaaaa:hover {
+		    width: 200px;
+		    height: 200px;
+		    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+		    transform: rotate(180deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="transform demo_transform1">rotate(10deg)</div>
+	<div class="aaaaa">鼠标移动到 div 元素上，查看过渡效果。</div>
+</body>
+</html>
