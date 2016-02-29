@@ -1,0 +1,1949 @@
+[ 2016-02-21T21:56:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002098s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:19+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:29+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:56:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Public
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001838s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031582s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:57:47+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAMEView/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:APP_NAMEView
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+ERR: 无法加载模块:APP_NAME
+
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:58:18+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:APP_NAME
+
+
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003242s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T21:59:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:00:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001254s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004957s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:05:09+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000298s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001342s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:05+08:00 ] ::1 /test/thinkphp_3.2.3_full/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+ERR: 无法加载模块:Css
+
+[ 2016-02-21T22:06:05+08:00 ] ::1 /test/thinkphp_3.2.3_full/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Js
+
+[ 2016-02-21T22:06:05+08:00 ] ::1 /test/thinkphp_3.2.3_full/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Js
+
+[ 2016-02-21T22:06:05+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010384s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005560s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+ERR: 无法加载模块:Css
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:Js
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Js
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027034s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002317s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043736s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:37+08:00 ] ::1 /test/thinkphp_3.2.3_full/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004441s ]
+ERR: 无法加载模块:Images
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001225s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002899s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001833s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:06:42+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023191s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001434s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:08:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005328s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:11+08:00 ] ::1 /test/thinkphp_3.2.3_full//test/thinkphp_3.2.3_full/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Test
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015100s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020681s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:51+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APPNAME__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001065s ]
+ERR: 无法加载模块:__APPNAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011744s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:10:59+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP_NAME__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:__APP_NAME__
+
+[ 2016-02-21T22:11:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:06+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:11:07+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000565s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004069s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:00+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:APP_NAME
+
+
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003042s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022197s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003628s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026568s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:13:40+08:00 ] ::1 /test/thinkphp_3.2.3_full/APP_NAME/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000985s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:27+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Runtime//View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000436s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:14:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002118s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030052s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:35+08:00 ] ::1 /test/thinkphp_3.2.3_full/__APP__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:__APP__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026017s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:15:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/__MODULE__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:__MODULE__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002781s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:16:03+08:00 ] ::1 /test/thinkphp_3.2.3_full/__CONTROLLER__/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+ERR: 无法加载模块:__CONTROLLER__
+
+[ 2016-02-21T22:21:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:12+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005324s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:13+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application//View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/zhuakuang.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/baobao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/ku.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/qian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/jiyan.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/huaxin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/touxiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/haixiu.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/taikaixin.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Application
+
+[ 2016-02-21T22:21:48+08:00 ] ::1 /test/thinkphp_3.2.3_full/Application/Home/View/Public/Images/phiz/xixi.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Application
+

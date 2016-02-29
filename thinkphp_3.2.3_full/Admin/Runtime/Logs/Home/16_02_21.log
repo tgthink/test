@@ -1,0 +1,158 @@
+[ 2016-02-21T17:17:21+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.010107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.010177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001219s ]
+
+[ 2016-02-21T17:23:55+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2016-02-21T17:24:39+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-02-21T17:36:31+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-02-21T17:36:32+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-02-21T17:41:53+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2016-02-21T17:42:43+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-02-21T17:42:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-02-21T17:42:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-02-21T17:42:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-02-21T17:42:45+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-02-21T17:42:54+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+NOTIC: [2] include(./Cong/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+NOTIC: [2] include(): Failed opening './Cong/config.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-02-21T17:43:57+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+NOTIC: [2] include(./Cong/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+NOTIC: [2] include(): Failed opening './Cong/config.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-02-21T17:44:24+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+NOTIC: [2] include(./Cong/config.php): failed to open stream: No such file or directory D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+NOTIC: [2] include(): Failed opening './Cong/config.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\test\thinkphp_3.2.3_full\Admin\Home\Conf\config.php 第 6 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-02-21T17:44:44+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2016-02-21T17:45:17+08:00 ] ::1 /test/thinkphp_3.2.3_full/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
