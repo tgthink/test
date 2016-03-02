@@ -11,5 +11,5 @@ return array(
 	'DB_CHARSET'=>'utf8',// 数据库字符集
 	//'TMPL_EXCEPTION_FILE' => "./Public/View/error.html",
 	//'TMPL_VAR_IDENTIFY' => 'array',
-	//'TMPL_FILE_DEPR' => '_'
+	'TMPL_FILE_DEPR' => '-'
 );

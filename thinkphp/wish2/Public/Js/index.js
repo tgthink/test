@@ -95,7 +95,23 @@ $(function () {
 				content: content.val()
 			},
 			function(data) {
-
+				if (data.status) {
+					var str = '<dl class="paper a1">' +
+								'<dt>' +
+									'<span class="username">' + data.username + '</span>' +
+									'<span class="num">No.' + data.id + '</span>' +
+								'</dt>' +
+								'<dd class="content">' + data.content + '</dd>' +
+								'<dd class="bottom">' +
+									'<span class="time">' + data.time + '</span>' +
+									'<a href="" class="close"></a>' +
+								'</dd>' +
+							'</dl>';
+					$("#main").append(str);
+					$("#close").click();
+				} else {
+					alert('发布失败');
+				}
 			},
 			"json"
 		);
