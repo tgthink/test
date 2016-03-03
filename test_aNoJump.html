@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>链接测试</title>
+	<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<a id="zztz1" href="#" >阻止跳转1</a>
+	<a id="zztz2" href="javascript:;" >阻止跳转2</a>
+	<a id="zztz2" href="" >没有阻止跳转</a>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#zztz1").on("click", function() {
+				console.log("阻止跳转1");
+			});
+			$("#zztz2").on("click", function() {
+				console.log("阻止跳转2");
+			});
+		});
+	</script>
+</body>
+</html>

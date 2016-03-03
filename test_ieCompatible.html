@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+	<input id="searchText" type="text" placeholder="请输入您要搜索的商品" value="" name="name">
+	<a id="search" href="###">确定</a>
+	<script type="text/javascript">
+		/* 搜索商品 start */
+		var $searchText = $("#searchText");
+		var $search = $("#search");
+		$search.click(function() {
+            var url = "test_image.html";
+            window.open(url);
+        });
+        $searchText.on("keydown", function(e) {
+	        if (e.keyCode == 13) {
+	            $search.trigger("click");
+	        }
+        });
+		/* 搜索商品 end */
+	</script>
+</body>
+</html>
