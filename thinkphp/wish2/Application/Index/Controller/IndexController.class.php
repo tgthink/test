@@ -3,7 +3,8 @@ namespace Index\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index () {
-        $this->display();
+        $wish = M('hd_wish')->select();
+        $this->assign('wish', $wish)->display();
     }
     public function handle () {
     	//var_dump(IS_AJAX);
@@ -14,7 +15,7 @@ class IndexController extends Controller {
             'content' => I('content'),
             'time' => time()
         );
-        if ($id = M('wish')->data($data)->add()) {
+        if ($id = M('hd_wish')->data($data)->add()) {
             $data['id'] = $id;
             $data['username'] = $username;
             $data['content'] = replace_phiz($data['content']);

@@ -1,0 +1,144 @@
+[ 2016-03-03T22:08:25+08:00 ] ::1 /test/thinkphp/wish2/APP_NAME/Admin/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-03-03T22:08:25+08:00 ] ::1 /test/thinkphp/wish2/APP_NAME/Admin/Public/Css/public.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-03-03T22:08:25+08:00 ] ::1 /test/thinkphp/wish2/APP_NAME/Admin/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-03-03T22:08:25+08:00 ] ::1 /test/thinkphp/wish2/APP_NAME/Admin/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-03-03T22:08:25+08:00 ] ::1 /test/thinkphp/wish2/APP_NAME/Admin/Public/Css/public.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-03-03T22:08:25+08:00 ] ::1 /test/thinkphp/wish2/APP_NAME/Admin/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-03-03T22:08:25+08:00 ] ::1 /test/thinkphp/wish2/APP_NAME/Admin/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-03-03T22:08:25+08:00 ] ::1 /test/thinkphp/wish2/APP_NAME/Admin/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001895s ]
+ERR: 无法加载模块:APP_NAME
+
+[ 2016-03-03T22:09:51+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Css/public.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:09:51+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:09:51+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:09:51+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:09:51+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Css/public.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:09:51+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:09:51+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:09:51+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:10:07+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:12:22+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Css/public.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:12:22+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:12:22+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:12:22+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:12:22+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Css/public.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:12:22+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Application
+
+[ 2016-03-03T22:12:22+08:00 ] ::1 /test/thinkphp/wish2/Application/Admin/Public/Js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001303s ]
+ERR: 无法加载模块:Application
+

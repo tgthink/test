@@ -15,7 +15,7 @@ class IndexController extends Controller {
 		// $this->redirect('show', array('uid' => 1), 3, '页面跳转中...');
   //   	die;
     	// header("Content-type:text/html;charset=utf-8");
-    	$wish = M('wish')->select();
+    	//$wish = M('wish')->select();
     	// p($wish);
     	// $this->assign("a", 111111);
     	// $this->a = 1111;

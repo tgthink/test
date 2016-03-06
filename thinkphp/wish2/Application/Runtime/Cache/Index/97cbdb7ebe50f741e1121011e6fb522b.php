@@ -15,17 +15,17 @@
 		<span id='send'></span>
 	</div>
 	<div id='main'>
-		<dl class='paper a1'>
-			<dt>
-				<span class='username'>后盾网</span>
-				<span class='num'>No.00001</span>
-			</dt>
-			<dd class='content'>大家今天要好好把后台布局完成大家今天要好好把后台布局完成大家今天要好好把后台布局完成</dd>
-			<dd class='bottom'>
-				<span class='time'>今天08:30</span>
-				<a href="" class='close'></a>
-			</dd>
-		</dl>
+		<?php if(is_array($wish)): foreach($wish as $key=>$v): ?><dl class='paper a<?php echo mt_rand(1,5);?>'>
+				<dt>
+					<span class='username'><?php echo ($v["username"]); ?></span>
+					<span class='num'>No.<?php echo ($v["id"]); ?></span>
+				</dt>
+				<dd class='content'><?php echo (replace_phiz($v["content"])); ?></dd>
+				<dd class='bottom'>
+					<span class='time'>今天<?php echo (date('y-m-d H:i', $v["time"])); ?></span>
+					<a href="" class='close'></a>
+				</dd>
+			</dl><?php endforeach; endif; ?>
 		<!--dl class='paper a2'>
 			<dt>
 				<span class='username'>后盾网</span>

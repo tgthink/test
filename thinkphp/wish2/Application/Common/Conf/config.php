@@ -7,9 +7,10 @@ return array(
 	'DB_USER'=>'root',// 用户名
 	'DB_PWD'=>'840f6527d7',// 密码
 	'DB_PORT'=>3306,// 端口
-	'DB_PREFIX'=>'hd_',// 数据库表前缀
+	'DB_PREFIX'=>'',// 数据库表前缀
 	'DB_CHARSET'=>'utf8',// 数据库字符集
 	//'TMPL_EXCEPTION_FILE' => "./Public/View/error.html",
 	//'TMPL_VAR_IDENTIFY' => 'array',
-	'TMPL_FILE_DEPR' => '-'
+	'TMPL_FILE_DEPR' => '-',
+	'SESSION_AUTO_START' => true,
 );
