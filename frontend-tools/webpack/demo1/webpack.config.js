@@ -1,19 +1,20 @@
 //npm install css-loader style-loader
-//var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
+var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
+var UglifyJsPlugin = require("webpack/lib/optimize/UglifyJsPlugin");
+//var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
 var webpack = require('webpack');
-// var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
-var commonsPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 	entry: {
 		index: "./index.js",
 		list1: "./src/js/list1.js",
+		list2: "./src/js/list2.js",
 	},
 	output: {
 	    path: './dist/',
 	    publicPath: 'dist/',
-		filename: "js/[name].js"
+		filename: "./js/[name].js"
 	},
 	module: {
 		loaders: [
@@ -27,23 +28,37 @@ module.exports = {
             }*/
 		]
 	},
-	plugins: [new HtmlWebpackPlugin({
-		filename: 'list1.html',
-		template: './src/list1.html',
-		inject: false
-	}), new CommonsChunkPlugin({
-	  name: "commons",
-	  // (the commons chunk name)
+	plugins: [
+		new HtmlWebpackPlugin({
+			filename: 'list1.html',
+			template: './src/list1.html',
+			inject: false
+		}), new HtmlWebpackPlugin({
+			filename: 'list2.html',
+			template: './src/list2.html',
+			inject: false
+		}), new CommonsChunkPlugin({
+		  name: "commons",
+		  // (the commons chunk name)
 
-	  filename: "commons.js",
-	  // (the filename of the commons chunk)
+		  filename: "./js/commons.js",
+		  // (the filename of the commons chunk)
 
-	  // minChunks: 3,
-	  // (Modules must be shared between 3 entries)
+		  // minChunks: 3,
+		  // (Modules must be shared between 3 entries)
 
-	  // chunks: ["pageA", "pageB"],
-	  // (Only use these entries)
-	})]
+		  // chunks: ["pageA", "pageB"],
+		  // (Only use these entries)
+		}),
+		new UglifyJsPlugin({
+			compress: {
+				warnings: false
+			},
+			mangle: {
+				except: ['$']
+			}
+		})
+	]
 }
 /*
 	{
