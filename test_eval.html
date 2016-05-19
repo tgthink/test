@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>eval测试</title>
+</head>
+<body>
+	<script>
+	var aaaaaa = "(C+18.5)*G + 20*G+50;";
+	aaaaaa = aaaaaa.replace(/C/g, "258.3");
+	aaaaaa = aaaaaa.replace(/G/g, "10");
+	var aaa = eval(aaaaaa);
+	console.log(aaa);
+	</script>
+</body>
+</html>
