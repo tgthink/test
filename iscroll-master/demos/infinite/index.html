@@ -70,6 +70,8 @@ function loaded () {
 }
 
 function requestData (start, count) {
+	console.log("==============================================11111111111111");
+	console.log(start + ":" + count);
 	ajax('dataset.php?start=' + +start + '&count=' + +count, {
 		callback: function (data) {
 			console.log(data);
@@ -80,6 +82,8 @@ function requestData (start, count) {
 }
 
 function updateContent (el, data) {
+	console.log("==============================================2222222222222222222");
+	console.log(data);
 	el.innerHTML = data;
 }
 
