@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用来当跳转页面2</title>
+</head>
+<body>
+	用来当跳转页面2
+	<input type="button" name="button1" id="button1" value="返回" onclick="history.go(-1)">
+	<input type="button" name="button2" id="button2" value="history长度" onclick="echohistorylenght()">
+	<script type="text/javascript">
+		function echohistorylenght() {
+			console.log(history);
+			console.log(history.length);
+		}
+		function emptyhistory() {
+			
+		}
+	</script>
+</body>
+</html>

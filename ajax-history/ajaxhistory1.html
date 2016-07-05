@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajax历史测试</title>
+</head>
+<body>
+	<button id="qqsj">请求数据</button>
+	<a href="ajaxhistory2.html" >跳到另外的页面</a>
+	<div id="content" >
+		<p>我是内容</p>
+	</div>
+	<hr/>
+	<!--div class="container">
+	    <div class="row">
+	        <ul class="nav navbar-nav">
+	            <li><a href="home.html" class="historyAPI">Home</a></li>
+	            <li><a href="about.html" class="historyAPI">About</a></li>
+	            <li><a href="contact.html" class="historyAPI">Contact</a></li>
+	        </ul>
+	    </div>
+	    <div class="row">
+	        <div class="col-md-6">
+	            <div class="well">
+	                Click on Links above to see history API usage using <code>pushState</code> method.
+	            </div>
+	        </div>
+	        <div class="row">   
+	            <div class="jumbotron" id="contentHolder">
+	                <h1>Home!</h1>
+	                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+	            </div>
+	        </div>
+	    </div>
+	</div-->
+	<script type="text/javascript" src="../js/jquery.js" ></script>
+	<script type="text/javascript">
+		function supports_history_api() { return !!(window.history && history.pushState); }
+		var total = 0;
+		$("#qqsj").on("click", function() {
+			if ( supports_history_api() ) {
+				console.log("支持History API");	
+			} else {
+				console.log("不支持History API");
+			}
+			$.post("ajaxhistory1.php", function (data) {
+				// console.log(data);
+				// console.log(typeof data);
+				// console.log(data instanceof Array);
+				// console.log("========================================");
+				total++;
+				$("#content").append('<p>' + data + '</p>');
+				var newURL = "?page=" + total;
+				history.pushState(data, null, newURL);
+			},"json");
+			//newURL = "?page=" + pageNow;
+			//history.pushState(null, "", newURL);
+		});
+		// window.onpopstate=function(){
+		// 	// 获得存储在该历史记录点的json对象
+		// 	var json = window.history.state;
+		// 	// 点击一次回退到：http://qianduanblog.com/index.html
+		// 	// 获得的json为null
+		// 	// 再点击一次前进到：http://qianduanblog.com/post-1.html
+		// 	// 获得json为{time:1369647895656}
+		// }
+		$(window).on("popstate", function(event) {
+			alert("触发了popstate");
+		    // 取得之前通过pushState保存的state object，尽管本示例并不打算使用它。
+		    // jQuery对event做了一层包装，需要通过originalEvent取得原生event。
+		    var state = event.originalEvent.state,
+
+		        // 本示例直接取URL参数来处理
+		        reg = /page=(\d+)/,
+		        regMatch = reg.exec(location.search),
+
+		        // 第1页的时候既可以是 ?page=1，也可以根本没有page参数
+		        pageNow = regMatch === null ? 1 : +regMatch[1];
+
+		    //updateByPage(total);
+		});
+	</script>
+	<script type="text/javascript">
+	    // jQuery('document').ready(function(){
+
+	    //     jQuery('.historyAPI').on('click', function(e){
+	    //         e.preventDefault();
+	    //         var href = $(this).attr('href');
+
+	    //         // Getting Content
+	    //         getContent(href, true);
+
+	    //         jQuery('.historyAPI').removeClass('active');
+	    //         $(this).addClass('active');
+	    //     });
+
+	    // });
+
+	    // // Adding popstate event listener to handle browser back button 
+	    // window.addEventListener("popstate", function(e) {
+	    //     // Get State value using e.state
+	    //     console.log(location.pathname);
+	    //     getContent(location.pathname, false);
+	    // });
+
+	    // function getContent(url, addEntry) {
+	    //     $.get(url).done(function( data ) {
+	    //         // Updating Content on Page
+	    //         $('#contentHolder').html(data);
+
+	    //         if(addEntry == true) {
+	    //             // Add History Entry using pushState
+	    //             history.pushState(null, null, url);
+	    //         }
+
+	    //     });
+	    // }
+	</script>
+</body>
+</html>

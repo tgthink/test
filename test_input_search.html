@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>调用输入法搜索</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+</head>
+<body>
+	<form action="#"> <input type="search" onsearch="myFunction(this)" /> </form>
+	<script type="text/javascript">
+		function myFunction(ths) {
+			alert(ths.value);
+		}
+	</script>
+</body>
+</html>

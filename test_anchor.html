@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>测试锚点</title>
+	<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+</head>
+<body >
+	<a name="A0" id="A0"></a>
+	<a id="aaaaaaaaaa1" href="#A1">网页第一部分</a>
+	<a id="aaaaaaaaaa2" href="#A2">网页第二部分</a>
+	<div style="height:900px; background:#CCCCCC"></div>
+	<a name="A1" id="A1" href="#A1"></a>1<a href="#A0">返回顶部</a>
+	<div style="height:900px; background:#999999"></div>
+	<a name="A2" id="A2" href="#A2"></a>2<a href="#A0">返回顶部</a>
+	<div style="height:900px; background:#666666"></div>
+	<div id="aaaaaaaa" style="background: red;">
+		a
+	</div>
+	<script type="text/javascript">
+		// function setArchor(){
+		// 	//alert(location.hash);
+		//     location.hash = "A2";
+		// }
+		// $("#aaaaaaaaaa2").trigger("click");
+		// $("#aaaaaaaaaa2").on("click", function() {
+		// 	setArchor();
+		// });
+		$(document).ready(function() {
+			var url = window.location.toString();
+			var id = url.split("#")[1];
+			console.log(id);
+			console.log($(document).scrollTop());
+			if ( id ) {
+				var t = $("#"+id).offset().top;
+				console.log(t);
+				console.log("ttttttttttttttttttttttttttttttttttttt");
+				// document.documentElement.scrollTop = 1000;
+				// document.body.scrollTop = 1000;
+				// $("body,html").animate({ 
+				// 	scrollTop: 100 //让body的scrollTop等于pos的top，就实现了滚动 
+				// },0);
+				//$(document).scrollTop(100);
+				//window.scrollTop(100);
+				//console.log($(document).scrollTop());
+				$('body,html').animate({scrollTop:t},300);
+			}
+			$("#aaaaaaaa").on("click", function() {
+				$('body,html').animate({scrollTop:0},300);
+			});
+		});
+	</script>
+</body>
+</html>
