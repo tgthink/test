@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Blank Page</title>
+  <title>翻译新闻列表</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -213,7 +213,7 @@
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
         <li><a href="/test/inspiration/translate/index.php/Home/Index/"><i class="fa fa-home"></i> <span>首页</span></a></li>
-        <?php if([active] == 'newspaperlist' ): ?><li class="active" >
+        <?php if(newspaperlist == 'newspaperlist' ): ?><li class="active" >
             <?php else: ?>
             <li><?php endif; ?>
         <a href="/test/inspiration/translate/index.php/Home/Index/newspaper_list/"><i class="fa fa-newspaper-o"></i> <span>翻译新闻列表</span></a></li>
@@ -231,42 +231,80 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Blank page
-        <small>it all starts here</small>
+        翻译新闻列表
+        <small></small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Examples</a></li>
-        <li class="active">Blank page</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
+        <!--li><a href="#">Examples</a></li-->
+        <li class="active">翻译新闻列表</li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
 
-      <!-- Default box -->
-      <div class="box">
-        <div class="box-header with-border">
-          <h3 class="box-title">Title</h3>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="box-header">
+              <h3 class="box-title"></h3>
 
-          <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-              <i class="fa fa-minus"></i></button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fa fa-times"></i></button>
+              <div class="box-tools">
+                <div class="input-group input-group-sm" style="width: 150px;">
+                  <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
+
+                  <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body table-responsive no-padding">
+              <table id="newspaperList" class="table table-hover">
+                <tr>
+                  <th>ID</th>
+                  <th>User</th>
+                  <th>Date</th>
+                  <th>Status</th>
+                  <th>Reason</th>
+                </tr>
+                <tr>
+                  <td>183</td>
+                  <td>John Doe</td>
+                  <td>11-7-2014</td>
+                  <td><span class="label label-success">Approved</span></td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                </tr>
+                <tr>
+                  <td>219</td>
+                  <td>Alexander Pierce</td>
+                  <td>11-7-2014</td>
+                  <td><span class="label label-warning">Pending</span></td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                </tr>
+                <tr>
+                  <td>657</td>
+                  <td>Bob Doe</td>
+                  <td>11-7-2014</td>
+                  <td><span class="label label-primary">Approved</span></td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                </tr>
+                <tr>
+                  <td>175</td>
+                  <td>Mike Doe</td>
+                  <td>11-7-2014</td>
+                  <td><span class="label label-danger">Denied</span></td>
+                  <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                </tr>
+              </table>
+            </div>
+            <!-- /.box-body -->
           </div>
+          <!-- /.box -->
         </div>
-        <div class="box-body">
-          Start creating your amazing application!
-          <a href="http://www.kekenet.com/read/201607/452502.shtml" >http://www.kekenet.com/read/201607/452502.shtml</a>
-        </div>
-        <!-- /.box-body -->
-        <div class="box-footer">
-          Footer
-        </div>
-        <!-- /.box-footer-->
       </div>
-      <!-- /.box -->
 
     </section>
     <!-- /.content -->
@@ -491,5 +529,74 @@
 <script src="/test/inspiration/translate/Public/dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="/test/inspiration/translate/Public/dist/js/demo.js"></script>
+
+<script type="text/javascript">
+
+  /**
+   * 简单模板解析
+   */
+  pTool = {};
+  pTool.format = function() {
+    var args = arguments;
+    return this.replace(/{(.{1,2})}/g, function() {
+      return args[arguments[1]];
+      // return '';
+    });
+  }
+  function openContent(e, id) {
+    //console.log(e);
+    var $this = $(e.target);
+    window.location.href = '/test/inspiration/translate/index.php/Home/Index/newspaper_content/?id=' + id;
+  }
+  currentPage = {};
+  currentPage.buildNewspaperList = function (data) {
+    var aHtmlNewspaperList = [];
+    aHtmlNewspaperList.push(
+      '<tr>' +
+        '<th>ID</th>' +
+        '<th>标题</th>' +
+        '<th>标签</th>' +
+        '<th style="width: 40%;">概要</th>' +
+        '<th>添加时间</th>' +
+        '<th>最后编辑时间</th>' +
+      '</tr>'
+    );
+    var dataList = data.list;
+    for ( var i = 0; i < dataList.length; i++ ) {
+      var dataItem = dataList[i];
+      var sHtmlTag = "";
+      for ( var j = 0; j < dataItem.tag.length; j++ ) {
+        sHtmlTag += '<span class="label label-success">' + dataItem.tag[j] + '</span>&nbsp;';
+      }
+      var sHtmlTr = pTool.format.apply(
+        '<tr onclick="openContent(this, {0})" >' +
+          '<td>{0}</td>' +
+          '<td>{1}</td>' +
+          '<td>{5}</td>' +
+          '<td>{4}</td>' +
+          '<td>{2}</td>' +
+          '<td>{3}</td>' +
+        '</tr>',
+        [
+          dataItem.id,//0
+          dataItem.title,//1
+          dataItem.addTime,//2
+          dataItem.lastTime,//3
+          dataItem.outline,//4
+          sHtmlTag
+        ]
+      );
+      aHtmlNewspaperList.push(
+        sHtmlTr
+      );
+    }
+    $("#newspaperList").html(aHtmlNewspaperList.join());
+  }
+  $(document).ready(function() {
+    $.getJSON("/test/inspiration/translate/Public/data_newspaper_list.json", function(data) {
+        currentPage.buildNewspaperList(data);
+    });
+  });
+</script>
 </body>
 </html>

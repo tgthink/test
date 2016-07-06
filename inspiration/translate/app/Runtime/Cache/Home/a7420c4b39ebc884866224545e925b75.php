@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Blank Page</title>
+  <title>翻译新闻内容</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -26,6 +26,7 @@
   <![endif]-->
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
+<?php ?>
 <!-- Site wrapper -->
 <div class="wrapper">
 
@@ -213,7 +214,7 @@
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
         <li><a href="/test/inspiration/translate/index.php/Home/Index/"><i class="fa fa-home"></i> <span>首页</span></a></li>
-        <?php if([active] == 'newspaperlist' ): ?><li class="active" >
+        <?php if(newspaperlist == 'newspaperlist' ): ?><li class="active" >
             <?php else: ?>
             <li><?php endif; ?>
         <a href="/test/inspiration/translate/index.php/Home/Index/newspaper_list/"><i class="fa fa-newspaper-o"></i> <span>翻译新闻列表</span></a></li>
@@ -231,13 +232,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Blank page
-        <small>it all starts here</small>
+        翻译新闻内容
+        <small></small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Examples</a></li>
-        <li class="active">Blank page</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
+        <!--li><a href="#">Examples</a></li-->
+        <li class="active">翻译新闻内容</li>
       </ol>
     </section>
 
@@ -247,22 +248,24 @@
       <!-- Default box -->
       <div class="box">
         <div class="box-header with-border">
-          <h3 class="box-title">Title</h3>
+          <h3 class="box-title"><?php echo ($currentNewspaper->title); ?></h3>
 
           <div class="box-tools pull-right">
             <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
               <i class="fa fa-minus"></i></button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
-              <i class="fa fa-times"></i></button>
+            <!--button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+              <i class="fa fa-times"></i></button-->
           </div>
         </div>
         <div class="box-body">
-          Start creating your amazing application!
+          <?php
+ $content = $currentNewspaper->content; foreach ($content as $item) { echo '<p>'.$item->text.'</p>'; } ?>
+          <!--<?php echo ($currentNewspaper->content); ?>-->
           <a href="http://www.kekenet.com/read/201607/452502.shtml" >http://www.kekenet.com/read/201607/452502.shtml</a>
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          Footer
+          &nbsp;
         </div>
         <!-- /.box-footer-->
       </div>
