@@ -7,9 +7,11 @@ class IndexController extends Controller {
     }
     public function newspaper_content () {
       $getid = $_GET["id"];
+      $translate = translate("Twelve", "auto", "zh");
+      //echo print_r($translate);
       // $arr = C("TMPL_PARSE_STRING");
       // echo $arr['__PUBLIC__'];
-      $filename = './public/data_newspaper_list.json';//文件相对路径
+      $filename = './Public/data_newspaper_list.json';//文件相对路径
       $json_string = file_get_contents($filename);//读取json内容
       $json_obj = json_decode($json_string);
       //$json_obj->list;
@@ -27,6 +29,7 @@ class IndexController extends Controller {
         }
       }
       $this->assign('id', $getid);
+      $this->assign('translate', $translate);
       $this->assign('currentNewspaper', $currentNewspaper);
       $this->display();
     }

@@ -235,7 +235,7 @@
         <small></small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
+        <li><a href="/test/inspiration/translate/index.php/Home/Index/"><i class="fa fa-dashboard"></i> 首页</a></li>
         <!--li><a href="#">Examples</a></li-->
         <li class="active">翻译新闻列表</li>
       </ol>
