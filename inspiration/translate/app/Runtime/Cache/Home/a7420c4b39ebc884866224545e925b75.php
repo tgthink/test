@@ -17,6 +17,33 @@
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
   <link rel="stylesheet" href="/test/inspiration/translate/Public/dist/css/skins/_all-skins.min.css">
+  <script type="text/javascript">
+    var oNewspaperContent = <?php echo json_encode($currentNewspaper);?>;
+    console.log(oNewspaperContent);
+  </script>
+  <style type="text/css">
+    #newspaperContent {
+
+    }
+    #newspaperContent .tab-pane p span {
+      //padding-right: 10px;
+      cursor: pointer;
+    }
+    #newspaperContent .tab-pane p span:hover {
+      background: green;
+      color: white;
+    }
+    #translateDiv {
+      position: absolute;
+      display: none;
+      background: #fff;
+      border: 1px solid blue;
+      top: 0;
+      width: 500px;
+      height: 100px;
+      z-index: 9999;
+    }
+  </style>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,7 +53,7 @@
   <![endif]-->
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
-<?php  ?>
+<?php  echo print_r($translate); ?>
 <!-- Site wrapper -->
 <div class="wrapper">
 
@@ -272,25 +299,26 @@
             </li-->
             <li class="pull-right"><a href="#" class="text-muted"><i class="fa fa-gear"></i></a></li>
           </ul>
-          <div class="tab-content">
+          <div id="newspaperContent" class="tab-content">
             <div class="tab-pane active" id="tab_1">
               <?php
- $content = $currentNewspaper->content; $htmlEnZh = ''; $htmlEn = ''; $htmlZh = ''; foreach ($content as $item) { $htmlEnZh .= '<p>'.$item->text.'</p>'; if ( $item->type == "en" ) { $htmlEn .= '<p>'.$item->text.'</p>'; } else if ( $item->type == "zh" ) { $htmlZn .= '<p>'.$item->text.'</p>'; } } echo $htmlEnZh; ?>
+ ?>
+              <a href="http://www.kekenet.com/read/201607/452502.shtml" >http://www.kekenet.com/read/201607/452502.shtml</a>
             </div>
             <!-- /.tab-pane -->
             <div class="tab-pane" id="tab_2">
               <?php
- echo $htmlEn; echo $htmlZn; ?>
+ ?>
             </div>
             <!-- /.tab-pane -->
             <div class="tab-pane" id="tab_3">
               <?php
- echo $htmlEn; ?>
+ ?>
             </div>
             <!-- /.tab-pane -->
             <div class="tab-pane" id="tab_4">
               <?php
- echo $htmlZn; ?>
+ ?>
             </div>
             <!-- /.tab-pane -->
           </div>
@@ -313,7 +341,6 @@
         <div class="box-body">
           <?php
  $content = $currentNewspaper->content; foreach ($content as $item) { echo '<p>'.$item->text.'</p>'; } ?>
-          <a href="http://www.kekenet.com/read/201607/452502.shtml" >http://www.kekenet.com/read/201607/452502.shtml</a>
         </div>
         <div class="box-footer">
           &nbsp;
@@ -531,6 +558,7 @@
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
+<div id="translateDiv" style="">a</div>
 
 <!-- jQuery 2.2.3 -->
 <script src="/test/inspiration/translate/Public/plugins/jQuery/jquery-2.2.3.min.js"></script>
@@ -544,5 +572,59 @@
 <script src="/test/inspiration/translate/Public/dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="/test/inspiration/translate/Public/dist/js/demo.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    var htmlEnZh = '';
+    var htmlEn = '';
+    var htmlZh = '';
+    for ( var i = 0; i < oNewspaperContent["content"].length; i++ ) {
+      var currentContent = oNewspaperContent["content"][i];
+      if ( currentContent.type == "en" ) {
+        var htmlEnHandle = '';
+        var htmlEnLabel = '';
+        var reg = /([".\d-,\s]*)([^".\d-,]*)/g;
+        htmlEnHandle = currentContent.text.replace(reg, function() {
+          var symbolStr = arguments[1];
+          var wordStr = arguments[2];
+          var aWord = wordStr.split(/\s+/);
+          if ( symbolStr != "" ) {
+            htmlEnLabel += symbolStr;
+          }
+          for ( var j = 0; j < aWord.length; j++ ) {
+            if ( aWord[j] != "" ) {
+              htmlEnLabel += '<span class="translate-word" word="' + aWord[j] + '" >' + aWord[j] + '</span>';
+              if ( j + 1 != aWord.length ) {
+                htmlEnLabel += " ";
+              }
+            }
+          }
+          return wordStr;
+        });//currentContent.text.split(/\W+/);
+        htmlEnZh += '<p>' + htmlEnLabel + '</p>';
+        htmlEn += '<p>' + htmlEnLabel + '</p>';
+      } else if ( currentContent.type == "zh" ) {
+        htmlEnZh += '<p>' + currentContent.text + '</p>';
+        htmlZh += '<p>' + currentContent.text + '</p>';
+      }
+    }
+    $("#tab_1").html(htmlEnZh);
+    $("#tab_2").html(htmlEn + htmlZh);
+    $("#tab_3").html(htmlEn);
+    $("#tab_4").html(htmlZh);
+    $("body").on("click", ".translate-word", function() {
+      var $this = $(this);
+      var word = $this.attr("word");
+      var thisOffset = $this.offset();
+      console.log(thisOffset);
+      $("#translateDiv").css({top: thisOffset.top + $this.height(), left: thisOffset.left}).show();
+      $.post("/test/inspiration/translate/index.php/Home/Index/translateWord", {"word": word},function(data) {
+        console.log(arguments);
+        if ( typeof data.trans_result != "undefined") {
+          console.log(data.trans_result[0]["dst"]);
+        }
+      }, "json");
+    });
+  });
+</script>
 </body>
 </html>

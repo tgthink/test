@@ -21,8 +21,44 @@ define("URL",            "http://api.fanyi.baidu.com/api/trans/vip/translate");
 define("APP_ID",         "20160707000024788"); //替换为您的APPID
 define("SEC_KEY",        "Tkp2a4cX8JuMT5CVRwn6");//替换为您的密钥
 
-//翻译入口
-function translate($query, $from, $to)
+define("KEYFROM_YOUDAO",         "xhnewspaper"); //有道keyfrom
+define("KEY_YOUDAO",        "467866025");//有道key
+
+//有道翻译入口
+function translateYoudao($query)
+{
+    // $url = $pConstant["baseurl"]."shopmall.php?s=/JmwApp/ShopCart/BuyQuite";
+    // $post_data = array("id" => $_GET["id"], "num" => $_GET["num"], "token"=> $DecodeUserinfo["token"]);
+    return json_decode(httpGet("http://fanyi.youdao.com/openapi.do?keyfrom=".KEYFROM_YOUDAO."&key=".KEY_YOUDAO."&type=data&doctype=json&version=1.1&q=".$query));
+}
+
+function httpGet($url) {
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($curl, CURLOPT_TIMEOUT, 500);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+    curl_setopt($curl, CURLOPT_URL, $url);
+
+    $res = curl_exec($curl);
+    curl_close($curl);
+
+    return $res;
+}
+function httpPost($url, $post_data) {
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    // post数据
+    curl_setopt($ch, CURLOPT_POST, 1);
+    // post的变量
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+    $output = curl_exec($ch);
+    curl_close($ch);
+    return $output;
+}
+//百度翻译入口
+function translateBaidu($query, $from, $to)
 {
     $args = array(
         'q' => $query,

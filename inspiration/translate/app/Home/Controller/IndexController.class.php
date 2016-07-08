@@ -7,7 +7,7 @@ class IndexController extends Controller {
     }
     public function newspaper_content () {
       $getid = $_GET["id"];
-      $translate = translate("Twelve", "auto", "zh");
+      //$translate = translate("Twelve", "auto", "zh");
       //echo print_r($translate);
       // $arr = C("TMPL_PARSE_STRING");
       // echo $arr['__PUBLIC__'];
@@ -29,7 +29,7 @@ class IndexController extends Controller {
         }
       }
       $this->assign('id', $getid);
-      $this->assign('translate', $translate);
+      //$this->assign('translate', $translate);
       $this->assign('currentNewspaper', $currentNewspaper);
       $this->display();
     }
@@ -42,5 +42,17 @@ class IndexController extends Controller {
   		$name = substr($url ,strrpos($url ,'/')+1, -5 );
       //echo $name;
   		$this->display("index/pages/examples/".$name);
+    }
+    public function translateWord () {
+      $word = $_POST["word"];
+      if ( empty($word) ) {
+        $return = array();
+        $return["error_code"] = 101;
+        $return["msg"] = "失败了";
+      } else {
+        $return["baidu"] = translateBaidu($word, "auto", "zh");
+        $return["youdao"] = translateYoudao($word);//translateBaidu($word, "auto", "zh");
+      }
+      echo json_encode($return);
     }
 }
