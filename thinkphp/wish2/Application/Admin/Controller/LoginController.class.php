@@ -21,7 +21,11 @@ class LoginController extends Controller {
         $pwd = I('password', '', 'md5');
         $user = M('t_user')->where(array('user_name' => $username))->find();
         p($user);
-        if ( !$user || $user['password'] != $pwd ) {
+        // echo $user['user_pw'];
+        // echo "....................<br/>";
+        // echo $pwd;
+        // echo "....................<br/>";
+        if ( !$user || $user['user_pw'] != $pwd ) {
             $this->error('账号或密码错误');
         }
 
