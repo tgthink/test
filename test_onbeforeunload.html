@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+<script language=javascript> 
+function stoprefresh() { 
+	return true; 
+} 
+function UnloadConfirm() 
+{ 
+      alert('离开页面'); 
+} 
+</script> 
+<script> 
+window.onbeforeunload = stoprefresh; //关闭前的事件 
+//window.onunload = UnloadConfirm; //关闭后的事件 
+</script> 
+
+</body>
+</html>
