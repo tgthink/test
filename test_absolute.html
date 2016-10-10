@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>absolute</title>
+	<style type="text/css">
+		*{margin: 0;padding: 0;}
+		body {
+			/*height: 100%;*/
+			background: yellow;
+		}
+		#content {
+			width: 100%;
+			/*height: 200px;*/
+			/*position: relative;*/
+			bottom: 0;
+		    position: absolute;
+		    top: 0;
+		}
+		#header {
+			position: absolute;
+			width: 100%;
+			background: blue;
+			top: 0;
+		}
+		#text {
+			position: absolute;
+			width: 100%;
+			background: blue;
+			top: 50px;
+		}
+		#bottom {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			background: red;
+		}
+		#bottom input {
+			border: none;
+			height: 50px;
+		}
+		@media (max-height: 800px){
+			body {
+				background: green;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div id="header">我是头部</div>
+		<div id="text"></div>
+		<div id="bottom">
+			<input id="aaa" value="aaaaaaaaaa">
+		</div>
+	</div>
+	<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function (argument) {
+			$("#aaa").on("focus", function() {
+				//alert($(window).height());
+				// $("#text").html(
+				// 	$("#text").html()
+				// 	+ "<br/>"
+				// 	+ "window:" + $(window).height()
+				// 	+ "document:" + $(document).height()
+				// 	+ "<br/>"
+				// 	+ $(document).scrollTop()
+				// );
+				//$("#header").css("top", $(document).scrollTop());
+			})
+			// $(document).scroll(function() {
+			// 	$("#text").html($("#text").html()
+			// 		+ "<br/>"
+			// 		+ $(document).scrollTop());
+			// });
+		});
+		// var jinzhi=0;
+		// document.addEventListener("touchmove",function(e){
+		// 	if(jinzhi==0){
+		// 		e.preventDefault();
+		// 		e.stopPropagation();
+		// 	}
+		// },false);
+	</script>
+</body>
+</html>

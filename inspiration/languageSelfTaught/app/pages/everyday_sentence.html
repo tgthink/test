@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>每日一句</title>
+	<link rel="stylesheet" type="text/css" href="/fonts/iconfont.css">
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../styles/everyday_sentence.css">
+</head>
+<body>
+	<a href="http://news.iciba.com/views/dailysentence/daily.html#!/detail/title/2016-10-08" target="_blank">ICIBA每日一句</a>
+	<div id="content" >
+	</div>
+	<!-- Button trigger modal -->
+	<!--button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	  Launch demo modal
+	</button-->
+	<div style="text-align: center;">
+		<button type="button" class="btn btn-lg btn-danger" id="aaaaaaaaaaaaaaaa">Click to toggle popover</button>
+	</div>
+	<!--video controls="" autoplay="" name="media">
+		<source src="http://news.iciba.com/admin/tts/2016-09-30-day-1.mp3" type="audio/mpeg">
+	</video-->
+	<video id="videoSentence" controls="" ><!--source src="" type="audio/mpeg"-->
+		您的浏览器不支持 HTML5 video 标签。
+	</video>
+	<script type="text/javascript" src="../scripts/jquery.js"></script>
+	<script type="text/javascript" src="../scripts/template.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		var isArray = function(obj) {
+			return Object.prototype.toString.call(obj) === '[object Array]'; 
+		}
+		var content = document.getElementById("content");
+		var urlMp3 = "http://news.iciba.com/admin/tts/";
+		var aSentence = [
+			{
+				id: 1,
+				date: "2016-9-30 15:49:00",
+				en: "There was never a night or a problem that could defeat sunrise or hope. — Bernard Williams",
+				zh: "如同夜晚不能阻止日出，难题也无法抹杀希望。 —伯纳德‧威廉士",
+				sound: "2016-09-30-day-1.mp3"
+			},
+			{
+				id: 2,
+				date: "2016-10-1 15:49:00",
+				en: "Happiness doesn’t depend on who you are or what you have; it depends solely on what you think. — Dale Carnegie",
+				zh: "快乐不是取决于你是何人或你拥有什么，它只取决于你的想法。 —戴尔‧卡内基",
+				sound: "2016-10-01-day.mp3"
+			},
+			{
+				id: 3,
+				date: "2016-10-2 11:15:00",
+				en: "The world doesn't just disappear when you close your eyes. —Memento",
+				zh: "即使闭上眼睛，世界并没有消失。 —《记忆碎片》",
+				sound: "2016-10-02-day.mp3"
+			},
+			{
+				id: 4,
+				date: "2016-10-3 11:15:00",
+				en: "If you are honest to oneself , no one in the world can deceive you.",
+				zh: "当你对自己诚实的时候，世界上没有人能够期骗得了你。",
+				sound: "2016-10-03-day.mp3"
+			},
+			{
+				id: 5,
+				date: "2016-10-4 10:30:00",
+				en: "Do not ask for the moon any more. We already have the stars.",
+				zh: "不要再乞求能得到月亮了，我们已经拥有星星了。",
+				sound: "2016-10-04-day.mp3"
+			},
+			{
+				id: 9,
+				date: "2016-10-8 6:48:00",
+				en: "Even miracles take a little time. —The Fairy Godmother",
+				zh: "就算是奇迹也要花点时间才能发生的。 —仙女教母",
+				sound: "2016-10-08-day.mp3",
+				newWords: [
+					{
+						en: "Even",
+						zh: [
+							"即使"
+						]
+					},
+					{
+						en: "miracles",
+						zh: [
+							"奇迹"
+						]
+					},
+					{
+						en: "take",
+						zh: [
+							"采取;拿，取;接受（礼物等）;耗费（时间等）"
+						]
+					},
+					{
+						en: "little",
+						zh: [
+							"n. 少许；没有多少；短时间",
+							"adj. 小的；很少的；短暂的；小巧可爱的",
+							"adv. 完全不",
+							"n. (Little)人名；(英)利特尔"
+						]
+					}
+				]
+			},
+			{
+				id: 10,
+				date: "2016-10-9 21:11:00",
+				en: "Courage is like a muscle. We strengthen it with use. —Ruth Gordon",
+				zh: "勇气像肌肉，我们经由使用来加强它。 —露丝‧戈登",
+				sound: "2016-10-09-day.mp3",
+				newWords: [
+					{
+						en: "courage",
+						zh: [
+							"n.勇气;胆量;魄力;肝胆"
+						]
+					}
+				]
+			},
+			//Courage is like a muscle. We strengthen it with use. —Ruth Gordon
+		];
+		var sourceSentence =
+			'{{each listSentence as itemSentence i}}' +
+			'{{if i % 2 == 0}}' +
+			'<div class="a clearfix " >' +
+			'{{else}}' +
+			'<div class="b clearfix " >' +
+			'{{/if}}' +
+				'<p>{{itemSentence.date}}</p>' +
+				'<p>{{#fSentenceHandle(itemSentence.en)}}</p>' +
+				'<p>{{itemSentence.zh}}<i class="icon iconfont" onclick="playPause({{itemSentence.id}})" >&#xe600;</i></p>' +
+				'{{each itemSentence.newWords as itemNewWords j}}' +
+				'<div class="bg-primary new-words" >' +
+					'<div>{{itemNewWords.en}}</div>' +
+					'{{each itemNewWords.zh as itemZh z}}' +
+					'<div>{{itemZh}}</div>' +
+					'{{/each}}' +
+				'</div>' +
+				'{{/each}}' +
+			'</div>' +
+			'{{/each}}';
+		template.helper("fSentenceHandle", function(sentence) {
+			var reg = /([".—\s]*)([^".—\s]*)/g;
+			//var reg = /([".\d-,\s\\]*)([^".\d-,\\]*)/g;
+			//var htmlSentence = sentence;
+			var aSentence = [];
+			sentence.replace(reg, function() {
+				console.log(arguments);
+				var symbolStr = arguments[1];
+          		var wordStr = arguments[2];
+          		if ( symbolStr.search(/\s+/) ) {
+          			if ( symbolStr != "" ) {
+          				aSentence.push(symbolStr);
+          			}
+          			if ( wordStr != "" ) {
+          				aSentence.push(wordStr);
+          			}
+          		} else {
+          			aSentence.push(wordStr);
+          		}
+			});
+			aSentence.forEach(function(o, i) {
+				//console.log(o);
+				var reg = /[a-zA-Z]+/;
+				if ( !o.search(reg) ) {
+					var htmlWord = '<span class="translate-word" data-word="' + o + '" title="Popover title" data-content="And here\'s some amazing content. It\'s very engaging. Right?">' + o + '</span>';
+					//console.log(aSentence[i + 1]);
+					var strNextWord = aSentence[i + 1];
+					if ( typeof strNextWord != "undefined" && !strNextWord.search(reg)) {
+		   //          	//htmlEnLabel += " ";
+		            	htmlWord += " ";
+		        	}
+		        	aSentence[i] = htmlWord;
+				}
+			});
+			console.log(aSentence);
+			console.log("=========================================");
+			return aSentence.join("");
+		});
+		var renderSentence = template.compile(sourceSentence);
+		var htmlSentence = renderSentence({
+		    listSentence: aSentence
+		});
+		content.innerHTML = htmlSentence;
+
+		var myVideo = document.getElementById("videoSentence");
+
+		function playPause(id) {
+			// console.log(myVideo.childNodes);
+			// console.log(myVideo.childNodes[0]);
+			function playVideo(o) {
+				myVideo.src = urlMp3 + o["sound"];
+				if (myVideo.paused) {
+				  myVideo.play(); 
+				} else {
+				  myVideo.pause(); 
+				}
+			}
+			aSentence.forEach(function(o, i) {
+				if ( o["id"] == id ) {
+					playVideo(o);
+					return false;
+				}
+			});
+		}
+		// $.ajax({
+		// 	url: "http://www.ipktv.com/php/CICenterDebug/admin/index/api",
+		// 	success: function() {
+		// 		console.log(arguments);
+		// 		console.log("1111111111111111111111111");
+		// 	},
+		// 	error: function() {
+		// 		console.log(arguments);
+		// 		console.log("222222222222222222222222222222");
+		// 	}
+		// });
+		$("body").on("click", ".translate-word", function() {
+			var $this = $(this);
+			var word = $this.data("word");
+			// var $popover = $this.next();
+			// var $popoverContent = $(".popover-content", $popover);
+			// console.log($popover);
+			// $popoverContent.html('<img src="../images/loading.gif" class="center-block" />');
+			$this.popover('show');
+		}).on('show.bs.popover', function () {
+			var $this = $(this);
+			console.log($this);
+		});/*.on("mouseleave", ".translate-word", function() {
+			var $this = $(this);
+			$this.popover('hide');
+		}).on("mouseenter", ".translate-word", function() {
+			var $this = $(this);
+			$this.popover('show');
+		});*/
+	</script>
+</body>
+</html>

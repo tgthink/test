@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<div id="content" >
+		
+	</div>
+	<script type="text/javascript">
+		var words = [
+			{
+				english: "security",
+				zh: "安全"
+			},
+			{
+				english: "which",
+				zh: "哪一个"
+			},
+			{
+				english: "what",
+				zh: "什么"
+			},
+			{
+				english: "examples",
+				zh: "例子"
+			},
+			{
+				english: "extend",
+				zh: "延伸"
+			},
+			{
+				english: "after",
+				zh: "之后"
+			},
+			{
+				english: "variables",
+				zh: "可变因素"
+			},
+			{
+				english: "skins",
+				zh: "皮"
+			},
+			{
+				english: "following",
+				zh: "你关注的人，相当于微博中的“关注”"
+			},
+			{
+				english: "followers",
+				zh: "关注你的人，相当于微博中的“粉丝”"
+			},
+			{
+				english: "indentation",
+				zh: "缩进"
+			},
+			{
+				english: "sequence",
+				zh: "顺序"
+			},
+			{
+				english: "structure",
+				zh: "构建"
+			},
+			{
+				english: "media",
+				zh: "媒体"
+			},
+			{
+				english: "prevents",
+				zh: "阻止"
+			},
+			{
+				english: "must",
+				zh: "必须"
+			},
+			{
+				english: "transparent",
+				zh: "透明的"
+			},
+			{
+				english: "exit",
+				zh: "退出"
+			}
+		];
+		var content = document.getElementById("content");
+		words.forEach(function(o, i) {
+			console.log(o);
+			console.log(i);
+		});
+		content.innerHTML = JSON.stringify(words);
+	</script>
+</body>
+</html>
