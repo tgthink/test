@@ -10,6 +10,12 @@ const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
 gulp.task('styles', () => {
+  gulp.src('app/styles/lst-less/lst.less')
+  .pipe(less())
+  .pipe($.sourcemaps.init())
+  .pipe($.autoprefixer({browsers: ['> 1%', 'last 2 versions', 'Firefox ESR']}))
+  .pipe($.sourcemaps.write())
+  .pipe(gulp.dest('.tmp/styles'));
   gulp.src('app/styles/*.less')
   .pipe(less())
   .pipe($.sourcemaps.init())

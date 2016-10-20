@@ -18,11 +18,16 @@
     cursor: pointer;
 }
 .new-words {
+	position: relative;
 	float: left;
 	min-width: 80px;
 	margin-right: 5px;
 	padding: 5px;
 	/*border: 5px dashed red;*/
+	.icon-shanchu {
+		position: absolute;
+		right: 0;
+	}
 }
 .translate-word {
   //padding-right: 10px;
@@ -32,4 +37,29 @@
 	  background: green;
 	  color: white;
 	}
+}
+#translateDiv {
+	position: absolute;
+	display: none;
+	background: #fff;
+	/*border: 1px solid blue;*/
+	top: 0;
+	width: 500px;
+	height: auto;
+	z-index: 9999;
+	hr {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+.add-new-sentence {
+	width: 500px;
+}
+#videoSentence {
+	display: none;
+}
+/*form.cmxform label.error, */
+label.error {
+	color: red;
+	font-style: italic;
 }
