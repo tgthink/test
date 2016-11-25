@@ -10,8 +10,8 @@
 	/*文字类常量*/
 	window.pConstant = {}
 	pConstant.msg = {};
-	pConstant.msg.neterr = "网络不给力请重试";
-	pConstant.BaseUrl = "http://localhost/gzml/fire/project/code/system/index.php/Home/Index";
+	pConstant.msg.neterr = '网络不给力请重试';
+	pConstant.BaseUrl = 'http://localhost/gzml/fire/project/code/system/index.php/Home/Index';
 	window.pTool = {};
 
 	pConstant.number = {};
@@ -25,14 +25,14 @@
 	 * ajax 封装
 	 */
 	pTool.ajax = function(paraObj) {
-		var url = paraObj["url"];
-		var sendData = paraObj["data"];
-		var success = paraObj["success"];
-		var error = paraObj["error"];
-		var type = paraObj["type"];
-		var dataType = paraObj["dataType"];
-		type = !!type ? type : "POST";
-		dataType = !!dataType ? dataType : "json";
+		var url = paraObj['url'];
+		var sendData = paraObj['data'];
+		var success = paraObj['success'];
+		var error = paraObj['error'];
+		var type = paraObj['type'];
+		var dataType = paraObj['dataType'];
+		type = !!type ? type : 'POST';
+		dataType = !!dataType ? dataType : 'json';
 		$.ajax({
 			type: type,
 			url: url,

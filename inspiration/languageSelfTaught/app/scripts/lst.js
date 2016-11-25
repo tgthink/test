@@ -46,32 +46,32 @@ $.Lst.boxWidget = {
 	collapse: function (element) {
 	  var _this = this;
 	  //Find the box parent
-	  var box = element.parents(".box").first();
+	  var box = element.parents('.box').first();
 	  //Find the body and the footer
-	  var box_content = box.find("> .box-body, > .box-footer, > form  >.box-body, > form > .box-footer");
-	  if (!box.hasClass("collapsed-box")) {
+	  var box_content = box.find('> .box-body, > .box-footer, > form  >.box-body, > form > .box-footer');
+	  if (!box.hasClass('collapsed-box')) {
 	    //Convert minus into plus
-	    element.children(":first")
+	    element.children(':first')
 	      .removeClass(_this.icons.collapse)
 	      .addClass(_this.icons.open);
 	    //Hide the content
 	    box_content.slideUp(_this.animationSpeed, function () {
-	      box.addClass("collapsed-box");
+	      box.addClass('collapsed-box');
 	    });
 	  } else {
 	    //Convert plus into minus
-	    element.children(":first")
+	    element.children(':first')
 	      .removeClass(_this.icons.open)
 	      .addClass(_this.icons.collapse);
 	    //Show the content
 	    box_content.slideDown(_this.animationSpeed, function () {
-	      box.removeClass("collapsed-box");
+	      box.removeClass('collapsed-box');
 	    });
 	  }
 	},
 	remove: function (element) {
 	  //Find the box parent
-	  var box = element.parents(".box").first();
+	  var box = element.parents('.box').first();
 	  box.slideUp(this.animationSpeed);
 	}
 };

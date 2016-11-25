@@ -11,7 +11,7 @@
  */
 /*global ActiveXObject alert */
 ;(function($) {
-"use strict";
+'use strict';
 
 /*
     Usage Note:
@@ -54,7 +54,7 @@
  * Feature detection
  */
 var feature = {};
-feature.fileapi = $("<input type='file'/>").get(0).files !== undefined;
+feature.fileapi = $('<input type=\'file\'/>').get(0).files !== undefined;
 feature.formdata = window.FormData !== undefined;
 
 /**
@@ -182,7 +182,7 @@ $.fn.ajaxSubmit = function(options) {
     var multipart = ($form.attr('enctype') == mp || $form.attr('encoding') == mp);
 
     var fileAPI = feature.fileapi && feature.formdata;
-    log("fileAPI :" + fileAPI);
+    log('fileAPI :' + fileAPI);
     var shouldUseFrame = (hasFileInputs || multipart) && !fileAPI;
 
     var jqxhr;
@@ -351,7 +351,7 @@ $.fn.ajaxSubmit = function(options) {
                 if (s.error)
                     s.error.call(s.context, xhr, e, status);
                 if (g)
-                    $.event.trigger("ajaxError", [xhr, s, e]);
+                    $.event.trigger('ajaxError', [xhr, s, e]);
                 if (s.complete)
                     s.complete.call(s.context, xhr, e);
             }
@@ -360,10 +360,10 @@ $.fn.ajaxSubmit = function(options) {
         g = s.global;
         // trigger ajax global events so that activity/block indicators work like normal
         if (g && 0 === $.active++) {
-            $.event.trigger("ajaxStart");
+            $.event.trigger('ajaxStart');
         }
         if (g) {
-            $.event.trigger("ajaxSend", [xhr, s]);
+            $.event.trigger('ajaxSend', [xhr, s]);
         }
 
         if (s.beforeSend && s.beforeSend.call(s.context, xhr, s) === false) {
@@ -385,7 +385,7 @@ $.fn.ajaxSubmit = function(options) {
             if (n && !sub.disabled) {
                 s.extraData = s.extraData || {};
                 s.extraData[n] = sub.value;
-                if (sub.type == "image") {
+                if (sub.type == 'image') {
                     s.extraData[n+'.x'] = form.clk_x;
                     s.extraData[n+'.y'] = form.clk_y;
                 }
@@ -629,7 +629,7 @@ $.fn.ajaxSubmit = function(options) {
                     s.success.call(s.context, data, 'success', xhr);
                 deferred.resolve(xhr.responseText, 'success', xhr);
                 if (g)
-                    $.event.trigger("ajaxSuccess", [xhr, s]);
+                    $.event.trigger('ajaxSuccess', [xhr, s]);
             }
             else if (status) {
                 if (errMsg === undefined)
@@ -638,14 +638,14 @@ $.fn.ajaxSubmit = function(options) {
                     s.error.call(s.context, xhr, status, errMsg);
                 deferred.reject(xhr, 'error', errMsg);
                 if (g)
-                    $.event.trigger("ajaxError", [xhr, s, errMsg]);
+                    $.event.trigger('ajaxError', [xhr, s, errMsg]);
             }
 
             if (g)
-                $.event.trigger("ajaxComplete", [xhr, s]);
+                $.event.trigger('ajaxComplete', [xhr, s]);
 
             if (g && ! --$.active) {
-                $.event.trigger("ajaxStop");
+                $.event.trigger('ajaxStop');
             }
 
             if (s.complete)
@@ -695,7 +695,7 @@ $.fn.ajaxSubmit = function(options) {
             if (typeof data === 'string') {
                 if (type === 'json' || !type && ct.indexOf('json') >= 0) {
                     data = parseJSON(data);
-                } else if (type === "script" || !type && ct.indexOf("javascript") >= 0) {
+                } else if (type === 'script' || !type && ct.indexOf('javascript') >= 0) {
                     $.globalEval(data);
                 }
             }
@@ -768,7 +768,7 @@ function captureSubmittingElement(e) {
     /*jshint validthis:true */
     var target = e.target;
     var $el = $(target);
-    if (!($el.is("[type=submit],[type=image]"))) {
+    if (!($el.is('[type=submit],[type=image]'))) {
         // is this a child element of the submit el?  (ex: a span within a button)
         var t = $el.closest('[type=submit]');
         if (t.length === 0) {
@@ -832,7 +832,7 @@ $.fn.formToArray = function(semantic, elements) {
             continue;
         }
 
-        if (semantic && form.clk && el.type == "image") {
+        if (semantic && form.clk && el.type == 'image') {
             // handle image inputs on the fly when semantic == true
             if(!el.disabled && form.clk == el) {
                 a.push({name: n, value: $(el).val(), type: el.type });
